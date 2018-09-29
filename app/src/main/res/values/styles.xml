@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name = "Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">65sp</item>
+        <item name="android:textColor">#5a5a5a</item>
+        <item name="android:text">Mount Mayon</item>
+    </style>
+
+    <style name = "bodyOne">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#767676</item>
+        <item name="android:text">Location: Legazpi, Albay</item>
+    </style>
+
+    <style name = "bodyTwo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">#767676</item>
+        <item name="android:text">Distance from UST: 496.9 km</item>
+    </style>
+
+    <style name = "buttonOne">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:text">BACK</item>
+        <item name="android:textColor">#fafafa</item>
+    </style>
+
+    <style name = "buttonTwo">
+    <item name="android:background">@drawable/rounded_button</item>
+    <item name="android:text">NEXT</item>
+    <item name="android:textColor">#fafafa</item>
+    </style>
+
+</resources>
